@@ -8,7 +8,7 @@ import { blogTheme } from './blog-theme'
 // 通常需要修改 base 路径，通常为“/仓库名/”
 // 如果项目名已经为 name.github.io 域名，则不需要修改！
 const base = process.env.GITHUB_ACTIONS === 'true'
-  ? '/libx-english-fun/'
+  ? '/'
   : '/'
 
 const RSS: RSSOptions = {
@@ -32,7 +32,7 @@ export default defineConfig({
   head: [
     // 配置网站的图标（显示在浏览器的 tab 上）
     // ['link', { rel: 'icon', href: `${base}favicon.ico` }], // 修改了 base 这里也需要同步修改
-    ['link', { rel: 'icon', href: `${base}/logo.jpg` }]
+    ['link', { rel: 'icon', href: `/logo.jpg` }]
   ],
   themeConfig: {
     // 展示 2,3 级标题在目录中
