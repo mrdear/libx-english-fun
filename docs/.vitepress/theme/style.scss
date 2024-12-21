@@ -1,0 +1,26 @@
+.VPHome {
+  // 定义遮罩样式
+  background: radial-gradient(ellipse,
+      rgba(var(--bg-gradient-home), 1) 0%,
+      rgba(var(--bg-gradient-home), 0) 150%);
+
+  // 自定义首页背景图
+  &::before {
+    // 图片来源：https://zhuanlan.zhihu.com/p/54060187
+    background-image: url(./assets/bg.webp);
+    background-size: cover;
+  }
+}
+
+abbr {
+  text-decoration: underline; /* 添加下划线 */
+  text-decoration-color: lightskyblue; /* 设置下划线颜色为浅天蓝色 */
+  text-decoration-thickness: 1px; /* 设置下划线粗细 */
+  text-underline-offset: 2px; /* 设置下划线与文字的偏移 */
+  cursor: pointer; /* 鼠标悬停时显示帮助光标 */
+  border-bottom: none; /* 移除默认的点状下划线 */
+}
+
+abbr:hover {
+  text-decoration-color: blue; /* 鼠标悬停时稍微加深下划线颜色 */
+}
