@@ -9,7 +9,7 @@ recommend: 5
 hidden: false
 sticky: 1
 author: LangGraph
-cover: https://resource.libx.fun/pic/2024/12/build_effective_agents.png
+cover: https://resource.libx.fun/pic/2025/01/20250105032832395.png
 date: 2025-01-05
 ---
 # LangGraph - Agent architectures
