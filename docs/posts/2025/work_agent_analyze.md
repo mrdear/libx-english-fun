@@ -214,14 +214,14 @@ Swarm为`network`模式的落地实践，其让智能体之间互相感知，比
 
 ### 微软 Magentic-One
 也是为`supervisor`模式的落地实践之一，重点设计在协调上。
-![](https://www.microsoft.com/en-us/research/uploads/prod/2024/11/magentic_orchestrator.png)
+![](https://resource.libx.fun/pic/2025/01/20250119193414299.png)
 
 ### ANT [agentUniverse](https://github.com/antgroup/agentUniverse/tree/master)
 agentUniverse已经设计好了一套固定流程Agent，解决特定的问题。不过其架构支持他实现上述说提到的各种模式，本身Patterns就是可扩展的点。
 
 - PEER 模式组件： 该pattern通过计划（Plan）、执行（Execute）、表达（Express）、评价（Review）四个不同职责的智能体，实现对复杂问题的多步拆解、分步执行，并基于评价反馈进行自主迭代，最终提升推理分析类任务表现。典型适用场景：事件解读、行业分析
 - DOE 模式组件： 该pattern通过数据精制（Data-fining）、观点注入（Opinion-inject）、表达（Express）三个智能体，实现对数据密集、高计算精度、融合专家观点的生成任务的效果提升。典型适用场景：财报生成
-  ![](https://resource.libx.fun/pic/2025/01/20250119193414299.png)
+  ![](https://resource.libx.fun/pic/2025/01/20250125180029885.png)
 
 
 
